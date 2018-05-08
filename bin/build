@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#!/bin/bash
+
+set -e
+
+echo -e "\nGenerating Binary..."
+
+CURRENTDIR=`pwd`
+
+BASEDIR=$(dirname $0)
+
+go build -o $CURRENTDIR/out/yint ./$BASEDIR/../cli
