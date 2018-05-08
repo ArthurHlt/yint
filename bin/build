@@ -9,4 +9,4 @@ CURRENTDIR=`pwd`
 
 BASEDIR=$(dirname $0)
 
-go build -o $CURRENTDIR/out/yint ./$BASEDIR/../cli
+go build -o $CURRENTDIR/out/yint ./$BASEDIR/../cli/yint

@@ -1,4 +1,4 @@
-# Yint
+# Yint [![Build Status](https://travis-ci.org/ArthurHlt/yint.svg?branch=master)](https://travis-ci.org/ArthurHlt/yint)
 
 Yint is a small library easy to use with a cli implementation which works the same way as https://bosh.io/docs/cli-v2/#misc (see interpolate) .
 
@@ -92,7 +92,7 @@ $ sh -c "$(wget https://raw.github.com/ArthurHlt/yint/master/bin/install.sh -O -
 
 ### On windows
 
-You can install it by downloading the `.exe` corresponding to your cpu from releases page: https://github.com/ArthurHlt/notifslack/releases .
+You can install it by downloading the `.exe` corresponding to your cpu from releases page: https://github.com/ArthurHlt/yint/releases .
 Alternatively, if you have terminal interpreting shell you can also use command line script above, it will download file in your current working dir.
 
 ### From go command line
@@ -100,7 +100,7 @@ Alternatively, if you have terminal interpreting shell you can also use command 
 Simply run in terminal:
 
 ```bash
-$ go get github.com/ArthurHlt/yint/cli
+$ go get github.com/ArthurHlt/yint/cli/yint
 ```
 
 ## Use the cli
